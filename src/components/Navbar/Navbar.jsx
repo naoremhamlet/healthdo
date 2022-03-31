@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.richstaurant} alt="app__logo" />
+        <img src={images.logo} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
@@ -18,11 +18,11 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#awards">Awards</a></li>
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
-      <div className="app__navbar-login">
+      {/* <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Log In / Registration</a>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
-      </div>
+      </div> */}
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (

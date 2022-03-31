@@ -1,3 +1,9 @@
+* 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .app__navbar {
     width: 100%;
     display: flex;

@@ -2,7 +2,6 @@ import React from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 import { SubHeading } from '../../components';
-import { images } from '../../constants';
 import g1 from '../../assets/Gallery1.jpeg'
 import g2 from '../../assets/Gallery2.jpeg'
 import g3 from '../../assets/Gallery3.jpeg'
@@ -29,7 +28,6 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of our best photographs took by professional photographer who appreciate our meals.</p>
-        <button type="button" className="custom__button">View More</button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
