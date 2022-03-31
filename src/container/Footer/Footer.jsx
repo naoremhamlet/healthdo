@@ -2,10 +2,9 @@ import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 import { FooterOverlay, Newsletter } from '../../components';
-import { images, links } from '../../constants';
+import { images } from '../../constants';
 import './Footer.css';
 
-console.log(links);
 
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
@@ -25,10 +24,10 @@ const Footer = () => (
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt="spoon_image_here"/>
         <div className="app__footer-links_icons">
-          <a href={links.links.facebook} target={"_blank"}>
+          <a href="https://www.facebook.com/Healthdo.in" target={"_blank"}>
             <FiFacebook />
           </a>
-          <a href={links.links.instagram} target={"_blank"}>
+          <a href="https://www.instagram.com/health_do/" target={"_blank"}>
             <FiInstagram />
           </a>
           {/* <a href={links.facebook}>
