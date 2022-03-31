@@ -1,7 +1,7 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
 
-import { FooterOverlay, Newsletter } from '../../components';
+// import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
 
@@ -24,10 +24,10 @@ const Footer = () => (
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt="spoon_image_here"/>
         <div className="app__footer-links_icons">
-          <a href="https://www.facebook.com/Healthdo.in" target={"_blank"}>
+          <a rel='noreferrer' href="https://www.facebook.com/Healthdo.in" target="_blank">
             <FiFacebook />
           </a>
-          <a href="https://www.instagram.com/health_do/" target={"_blank"}>
+          <a rel='noreferrer' href="https://www.instagram.com/health_do/" target="_blank">
             <FiInstagram />
           </a>
           {/* <a href={links.facebook}>

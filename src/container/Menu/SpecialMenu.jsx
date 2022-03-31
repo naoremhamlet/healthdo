@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
-import { data, images } from '../../constants';
+import { data} from '../../constants';
 import menu from '../../assets/Menu2.jpeg'
 import './SpecialMenu.css';
 
