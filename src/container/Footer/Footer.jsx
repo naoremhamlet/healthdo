@@ -13,9 +13,9 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">2401, Richard Nkulu, Avenue Lubumbashi-HK, DR. Congo</p>
-        <p className="p__opensans">+243 844471099</p>
-        <p className="p__opensans">+1 701-997-1020</p>
+        <p className="p__opensans">Nongmeibung Road, chingakham colony near Ananda singh Higher secondary school. Imphal 795005.</p>
+        <p className="p__opensans">+91 9774430099</p>
+        <p className="p__opensans">+91 9366126935</p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -31,10 +31,10 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">08:00 am - 12:00 am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">07:00 am - 11:00 pm</p>
+        <p className="p__opensans">Monday-Saturday:</p>
+        <p className="p__opensans">10:00AM- 06:00PM</p>
+        {/* <p className="p__opensans">Saturday-Sunday:</p>
+        <p className="p__opensans">07:00 am - 11:00 pm</p> */}
       </div>
     </div>
 

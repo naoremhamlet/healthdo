@@ -3,6 +3,11 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import g1 from '../../assets/Gallery1.jpeg'
+import g2 from '../../assets/Gallery2.jpeg'
+import g3 from '../../assets/Gallery3.jpeg'
+import g4 from '../../assets/Gallery4.jpeg'
+
 import './Gallery.css';
 
 const Gallery = () => {
@@ -28,7 +33,7 @@ const Gallery = () => {
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
+          {[g1,g2,g3,g4].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
               <BsInstagram className="gallery__image-icon" />

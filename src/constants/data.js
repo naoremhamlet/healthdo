@@ -29,6 +29,35 @@ const wines = [
   },
 ];
 
+const dishes = [
+  {
+    title: 'Corn Pepper Bowl',
+    price: 'Rs.220',
+    // tags: 'AU | Bottle',
+  },
+  {
+    title: 'Chicken Tortilla Bowl',
+    price: 'Rs.290',
+    // tags: 'AU | Bottle',
+  },
+  {
+    title: 'Garden Cobb',
+    price: 'Rs.220',
+    // tags: 'FR | 750 ml',
+  },
+  {
+    title: 'Harvest Bowl',
+    price: 'Rs.290',
+    // tags: 'CA | 750 ml',
+  },
+  {
+    title: 'Avocado Green Bowl',
+    price: 'Rs.290',
+    // tags: 'IE | 750 ml',
+  },
+];
+
+
 const cocktails = [
   {
     title: 'Aperol Sprtiz',
@@ -80,4 +109,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails, awards ,dishes};
